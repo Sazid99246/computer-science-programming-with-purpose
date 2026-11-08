@@ -37,15 +37,20 @@
     "Application.CartesianToPolar.executor": "Run",
     "Application.CheckSum.executor": "Run",
     "Application.ContinuousInterest.executor": "Run",
+    "Application.DayOfTheWeek.executor": "Run",
     "Application.Divisible.executor": "Run",
+    "Application.Dragon.executor": "Run",
     "Application.HelloWorld10Times.executor": "Run",
     "Application.HelloWorldMultilingual.executor": "Run",
     "Application.Initials.executor": "Run",
+    "Application.RGBtoYIQ.executor": "Run",
     "Application.RandomInteger.executor": "Run",
     "Application.SinAndCos.executor": "Run",
     "Application.SpringSeason.executor": "Run",
+    "Application.Stats5.executor": "Run",
     "Application.SumOfSines.executor": "Run",
     "Application.SumOfTwoDice.executor": "Run",
+    "Application.TriangleArea.executor": "Run",
     "Application.UseThree.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -53,7 +58,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CartesianToPolar">
+  <component name="RunManager" selected="Application.TriangleArea">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -76,10 +81,21 @@
       <option name="PROGRAM_PARAMETERS" value="1000 0.05 10" />
       <method v="2" />
     </configuration>
+    <configuration name="DayOfTheWeek" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DayOfTheWeek" />
+      <module name="Chapter 1.2" />
+      <option name="PROGRAM_PARAMETERS" value="4 10 2000" />
+      <method v="2" />
+    </configuration>
     <configuration name="Divisible" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Divisible" />
       <module name="Chapter 1.2" />
       <option name="PROGRAM_PARAMETERS" value="10 5" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dragon" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Dragon" />
+      <module name="Chapter 1.2" />
       <method v="2" />
     </configuration>
     <configuration name="HelloWorld10Times" type="Application" factoryName="Application">
@@ -95,6 +111,12 @@
     <configuration name="Initials" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Initials" />
       <module name="Chapter 1.1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RGBtoYIQ" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RGBtoYIQ" />
+      <module name="Chapter 1.2" />
+      <option name="PROGRAM_PARAMETERS" value="255 255 255" />
       <method v="2" />
     </configuration>
     <configuration name="RandomInteger" type="Application" factoryName="Application">
@@ -115,6 +137,11 @@
       <option name="PROGRAM_PARAMETERS" value="9 11" />
       <method v="2" />
     </configuration>
+    <configuration name="Stats5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Stats5" />
+      <module name="Chapter 1.2" />
+      <method v="2" />
+    </configuration>
     <configuration name="SumOfSines" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="SumOfSines" />
       <module name="Chapter 1.2" />
@@ -124,6 +151,12 @@
     <configuration name="SumOfTwoDice" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="SumOfTwoDice" />
       <module name="Chapter 1.2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TriangleArea" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="TriangleArea" />
+      <module name="Chapter 1.2" />
+      <option name="PROGRAM_PARAMETERS" value="3 4 5" />
       <method v="2" />
     </configuration>
     <configuration name="UseThree" type="Application" factoryName="Application">
