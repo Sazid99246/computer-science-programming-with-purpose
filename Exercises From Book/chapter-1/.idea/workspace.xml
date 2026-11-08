@@ -42,14 +42,19 @@
     "Application.Dragon.executor": "Run",
     "Application.HelloWorld10Times.executor": "Run",
     "Application.HelloWorldMultilingual.executor": "Run",
+    "Application.Hellos.executor": "Run",
     "Application.Initials.executor": "Run",
+    "Application.IsEqual.executor": "Run",
     "Application.RGBtoYIQ.executor": "Run",
     "Application.RandomInteger.executor": "Run",
+    "Application.RollLoadedDie.executor": "Run",
     "Application.SinAndCos.executor": "Run",
     "Application.SpringSeason.executor": "Run",
     "Application.Stats5.executor": "Run",
+    "Application.StatsN.executor": "Run",
     "Application.SumOfSines.executor": "Run",
     "Application.SumOfTwoDice.executor": "Run",
+    "Application.TenHellos.executor": "Run",
     "Application.TriangleArea.executor": "Run",
     "Application.UseThree.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -58,7 +63,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TriangleArea">
+  <component name="RunManager" selected="Application.StatsN">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -108,9 +113,21 @@
       <module name="Chapter 1.1" />
       <method v="2" />
     </configuration>
+    <configuration name="Hellos" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Hellos" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <method v="2" />
+    </configuration>
     <configuration name="Initials" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Initials" />
       <module name="Chapter 1.1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IsEqual" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="IsEqual" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="5 12 13" />
       <method v="2" />
     </configuration>
     <configuration name="RGBtoYIQ" type="Application" factoryName="Application">
@@ -123,6 +140,11 @@
       <option name="MAIN_CLASS_NAME" value="RandomInteger" />
       <module name="Chapter 1.2" />
       <option name="PROGRAM_PARAMETERS" value="2 5" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RollLoadedDie" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RollLoadedDie" />
+      <module name="Chapter 1.3" />
       <method v="2" />
     </configuration>
     <configuration name="SinAndCos" type="Application" factoryName="Application">
@@ -142,6 +164,12 @@
       <module name="Chapter 1.2" />
       <method v="2" />
     </configuration>
+    <configuration name="StatsN" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="StatsN" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="5" />
+      <method v="2" />
+    </configuration>
     <configuration name="SumOfSines" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="SumOfSines" />
       <module name="Chapter 1.2" />
@@ -151,6 +179,11 @@
     <configuration name="SumOfTwoDice" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="SumOfTwoDice" />
       <module name="Chapter 1.2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TenHellos" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="TenHellos" />
+      <module name="Chapter 1.3" />
       <method v="2" />
     </configuration>
     <configuration name="TriangleArea" type="Application" factoryName="Application">
