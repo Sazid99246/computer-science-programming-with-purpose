@@ -36,15 +36,19 @@
   "keyToString": {
     "Application.CartesianToPolar.executor": "Run",
     "Application.CheckSum.executor": "Run",
+    "Application.Checkerboard.executor": "Run",
     "Application.ContinuousInterest.executor": "Run",
     "Application.DayOfTheWeek.executor": "Run",
     "Application.Divisible.executor": "Run",
     "Application.Dragon.executor": "Run",
+    "Application.FunctionGrowth.executor": "Run",
     "Application.HelloWorld10Times.executor": "Run",
     "Application.HelloWorldMultilingual.executor": "Run",
     "Application.Hellos.executor": "Run",
     "Application.Initials.executor": "Run",
     "Application.IsEqual.executor": "Run",
+    "Application.NestedGambler.executor": "Run",
+    "Application.PowerOfTwo.executor": "Run",
     "Application.RGBtoYIQ.executor": "Run",
     "Application.RandomInteger.executor": "Run",
     "Application.RollLoadedDie.executor": "Run",
@@ -63,7 +67,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StatsN">
+  <component name="RunManager" selected="Application.Checkerboard">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -80,10 +84,16 @@
       <option name="PROGRAM_PARAMETERS" value="4 15" />
       <method v="2" />
     </configuration>
+    <configuration name="Checkerboard" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Checkerboard" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="10" />
+      <method v="2" />
+    </configuration>
     <configuration name="ContinuousInterest" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ContinuousInterest" />
-      <module name="Chapter 1.2" />
-      <option name="PROGRAM_PARAMETERS" value="1000 0.05 10" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="1000 0.05" />
       <method v="2" />
     </configuration>
     <configuration name="DayOfTheWeek" type="Application" factoryName="Application">
@@ -101,6 +111,11 @@
     <configuration name="Dragon" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Dragon" />
       <module name="Chapter 1.2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FunctionGrowth" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FunctionGrowth" />
+      <module name="Chapter 1.3" />
       <method v="2" />
     </configuration>
     <configuration name="HelloWorld10Times" type="Application" factoryName="Application">
@@ -128,6 +143,18 @@
       <option name="MAIN_CLASS_NAME" value="IsEqual" />
       <module name="Chapter 1.3" />
       <option name="PROGRAM_PARAMETERS" value="5 12 13" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NestedGambler" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="NestedGambler" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="50 250 1000" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PowerOfTwo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PowerOfTwo" />
+      <module name="Chapter 1.3" />
+      <option name="PROGRAM_PARAMETERS" value="1000" />
       <method v="2" />
     </configuration>
     <configuration name="RGBtoYIQ" type="Application" factoryName="Application">
